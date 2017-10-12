@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+    web:
+        build: .
+        restart: always
+        environment:
+          - VIRTUAL_HOST=love2in1.aws3.yongbuzhixi.com,www.love2in1.com
+          - LETSENCRYPT_HOST=love2in1.aws3.yongbuzhixi.com,www.love2in1.com
+          - LETSENCRYPT_EMAIL=dale.tel@139.com
