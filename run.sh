@@ -1,0 +1,1 @@
+docker-compose -p love2in1 -f ./docker-compose.yml up -d  --build --remove-orphans --force-recreate
