@@ -5,6 +5,6 @@ services:
         build: .
         restart: always
         environment:
-          - VIRTUAL_HOST=love2in1.aws.yongbuzhixi.com,www.love2in1.com
-          - LETSENCRYPT_HOST=love2in1.aws.yongbuzhixi.com,www.love2in1.com
-          - LETSENCRYPT_EMAIL=dale.tel@139.com
+          - VIRTUAL_HOST=www.love2in1.com
+          # - LETSENCRYPT_HOST=www.love2in1.com
+          # - LETSENCRYPT_EMAIL=dale.tel@139.com
