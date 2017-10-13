@@ -6,5 +6,5 @@ services:
         restart: always
         environment:
           - VIRTUAL_HOST=www.love2in1.com
-          # - LETSENCRYPT_HOST=www.love2in1.com
-          # - LETSENCRYPT_EMAIL=dale.tel@139.com
+          - LETSENCRYPT_HOST=www.love2in1.com
+          - LETSENCRYPT_EMAIL=dale.tel@139.com
