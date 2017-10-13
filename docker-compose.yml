@@ -1,9 +1,13 @@
 version: "2"
 
 services:
-    web:
-        build: .
+    love2in1:
+        container_name: love2in1
+        image: nginx
         restart: always
+        network_mode: "bridge"
+        volumes:
+        - ./:/usr/share/nginx/html
         environment:
           - VIRTUAL_HOST=www.love2in1.com
           - LETSENCRYPT_HOST=www.love2in1.com
